@@ -56,7 +56,11 @@ With your virtual environment activated, install the required Python packages:
 pip install -r requirements.txt
 ```
 
-5. Run the FastAPI Application:
+5. Update Your Information in `main.py`
+
+Open the `main.py` file in your VS Code editor. Locate the get_student_info endpoint and update the placeholder information (<YOUR_NAME>, <YOUR_STUDENT_ID>, <YOUR_CAMPUS>) with your actual details. Save the file after making these changes.
+
+6. Run the FastAPI Application:
 
 Once dependencies are installed, you can start the FastAPI application using Uvicorn:
 
@@ -72,7 +76,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 
 - `--port 8000`: Specifies the port the application will listen on.
 
-6. Access the Application in Your Browser:
+7. Access the Application in Your Browser:
 
 Open your web browser and navigate to the following URLs:
 
