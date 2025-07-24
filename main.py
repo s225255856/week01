@@ -30,10 +30,10 @@ async def get_student_info():
     This demonstrates returning simple JSON data.
     """
     return {
-        "student_name": "<YOUR_NAME>",
-        "student_id": "<YOUR_STUDENT_ID>",
+        "student_name": "MY CHI NGUYEN",
+        "student_id": "225255856",
         "unit_code": "SIT722",
         "unit_name": "Software Deployment and Operation",
-        "campus": "<YOUR_CAMPUS>",
+        "campus": "BURWOOD",
         "year": 2025,
     }
